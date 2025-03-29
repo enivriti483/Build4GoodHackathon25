@@ -93,6 +93,27 @@ main {
     transform: translateY(-5px);
 }
 
+/* Footer Image */
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-image img {
+    width: 80%; /* Adjust size as needed */
+    max-width: 600px; /* Limit max size */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.footer-image img:hover {
+    transform: scale(1.05); /* Add slight zoom effect on hover */
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     header h1 {
