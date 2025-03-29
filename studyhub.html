@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Hub Dashboard</title>
-    <link rel="stylesheet" href="studyhub.css">
+    <title>Study Hub</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Your Study Hub</h1>
+        <h1>Study Hub</h1>
         <nav>
             <ul>
                 <li><a href="calendar.html">📅 Calendar</a></li>
@@ -20,25 +20,23 @@
     
     <main>
         <section class="widget">
-            <h2>Today's Schedule</h2>
-            <p>Upcoming event: <span id="event-info">No events today</span></p>
+            <h2>Calendar</h2>
+            <p>Check your upcoming events.</p>
+            <a href="calendar.html">Go to Calendar</a>
         </section>
         
         <section class="widget">
             <h2>Pomodoro Timer</h2>
-            <p>Time Left: <span id="pomodoro-timer">00:25:00</span></p>
-            <button onclick="startPomodoro()">Start Pomodoro</button>
+            <p>Boost your productivity with Pomodoro.</p>
+            <a href="pomodoro.html">Start Pomodoro</a>
         </section>
         
         <section class="widget">
             <h2>To-Do List</h2>
-            <ul id="todo-list">
-                <li>No tasks yet</li>
-            </ul>
-            <a href="todo.html">Manage Tasks</a>
+            <p>Manage your tasks efficiently.</p>
+            <a href="todo.html">View Tasks</a>
         </section>
     </main>
-    
-    <script src="script.js"></script>
 </body>
 </html>
+
