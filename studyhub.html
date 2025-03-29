@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hub Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Study Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="calendar.html">📅 Calendar</a></li>
+                <li><a href="pomodoro.html">⏳ Pomodoro</a></li>
+                <li><a href="todo.html">✅ To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="widget">
+            <h2>Today's Schedule</h2>
+            <p>Upcoming event: <span id="event-info">No events today</span></p>
+        </section>
+        
+        <section class="widget">
+            <h2>Pomodoro Timer</h2>
+            <p>Time Left: <span id="pomodoro-timer">00:25:00</span></p>
+            <button onclick="startPomodoro()">Start Pomodoro</button>
+        </section>
+        
+        <section class="widget">
+            <h2>To-Do List</h2>
+            <ul id="todo-list">
+                <li>No tasks yet</li>
+            </ul>
+            <a href="todo.html">Manage Tasks</a>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
